@@ -58,22 +58,22 @@ def main():
     if(args.type == "consultant"):
         matrix = matrix_consultant
     elif(args.type != "ambtenaar"):
-        print "Unsupported type"
+        print("Unsupported type")
         sys.exit(0)
 
 
     if(args.verbose):
-        print "--- Starting generation ---"
+        print("--- Starting generation ---")
     
     if(args.action == "sentence" or args.action == "zin"):
-        print randomSentence()
+        print(randomSentence())
     elif(args.action == "memo"):
-        print randomMemo()
+        print(randomMemo())
     else:
-        print "Unsupported action"
+        print("Unsupported action")
 
     if(args.verbose):
-        print "--- Finished generation ---"
+        print("--- Finished generation ---")
 
 
 main()
