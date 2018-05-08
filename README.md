@@ -1,3 +1,3 @@
-# bullshit-generator
+Bullshit generator inspired by http://bullshit.takovermeulen.eu/
 
-Python command line implementation of http://bullshit.takovermeulen.eu/
+Including a collection of other class assignments.
